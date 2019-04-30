@@ -5,6 +5,7 @@ RUN git clone https://github.com/cubedro/eth-netstats --depth 1
 
 WORKDIR /eth-netstats
 
+
 RUN cnpm install
 RUN cnpm install -g grunt-cli
 RUN grunt
